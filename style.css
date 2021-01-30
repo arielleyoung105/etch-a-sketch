@@ -1,0 +1,31 @@
+#board {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    border: 10px solid #000;
+    margin: 10px auto 0 auto;
+    max-width: 960px;
+    min-height: 80vh;
+    max-height: 960px;
+}
+
+button {
+    height: 50px;
+    width: 200px;
+    font-size: large;
+    margin: auto;
+    display: block;
+    background: red;
+    border: none;
+    border-radius: 15px;
+    color: #eee;
+    font-weight: 600;
+}
+
+button:hover {
+    background: rgba(255, 0, 0, 0.7);
+}
+
+/* .cell {
+    border: 1px solid black;
+} */
